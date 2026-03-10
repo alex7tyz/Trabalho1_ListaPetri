@@ -1,4 +1,4 @@
-public class ListaSimples {
+public class ListaSimples implements ListaOperacoes {
     String [] lista;
     public ListaSimples(int tamanho) {
         this.lista = new String[tamanho];

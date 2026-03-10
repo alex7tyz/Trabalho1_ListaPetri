@@ -1,4 +1,4 @@
-public class ListaDinamica {
+public class ListaDinamica implements ListaOperacoes  {
     No inicio;
 
     public ListaDinamica() {
