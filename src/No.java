@@ -9,15 +9,12 @@ public class No {
     public No getProx() {
         return prox;
     }
-
     public void setProx(No prox) {
         this.prox = prox;
     }
-
     public String getConteudo() {
         return this.conteudo;
     }
-
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
     }
