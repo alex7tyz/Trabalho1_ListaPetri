@@ -73,16 +73,13 @@ public class ListaSimples implements ListaOperacoes {
         }
     }
     public int removerTodas(String elemento) {
-
         int cont = 0;
-
         for(int i = 0; i < lista.length; i++) {
             if(lista[i] != null && lista[i].equals(elemento)) {
                 lista[i] = null;
                 cont++;
             }
         }
-
         return cont;
     }
     public int contar() {
